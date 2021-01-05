@@ -17,7 +17,7 @@ export default function FriendForm(props) {
     // 🔥 STEP 7 - IMPLEMENT the submit handler
     // a) don't allow the browser to reload!
     // c) use the `submit` callback coming in through props
-    e.preventDefault();
+    evt.preventDefault();
     submit();
   };
 
